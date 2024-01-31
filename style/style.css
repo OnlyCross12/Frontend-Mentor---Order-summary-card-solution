@@ -1,0 +1,140 @@
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    width: 1440px;
+    margin: 0px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    background-size: 100%;
+}
+
+.card{
+    width: 450px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px #c6cff6ff;
+}
+
+.illustration-hero{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    display: inline-block;
+}
+
+.white-section{
+    height: 480px;
+    background-color: white;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: -4.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-section h3{
+    margin: 44px 0 15px;
+    color: var(--dark-blue);
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.white-section .description{
+    color: var(--desaturated-blue);
+    padding: 0px 50px;
+    margin: 0 0px 25px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.031em;
+    line-height: 25px;
+}
+
+.white-section .plan{
+    width: 350px;
+    height: 100px;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white-section .plan h4{
+    color: var(--dark-blue);
+    font-size: 1rem;
+    font-weight: 900;
+    position: relative;
+    bottom: 13px;
+    left: 3px;
+}
+
+.white-section .plan .price{
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    position: relative;
+    left: -100px;
+    top: 15px;
+}
+
+.white-section .plan button{
+    border: none;
+    background: none;
+    color: var(--bright-blue);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s, text-decoration 0.2s;
+}
+
+.white-section .plan button:hover{
+    color: hsla(245, 75%, 52%, 0.8);
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+}
+
+.white-section .place-order{
+    width: 350px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: var(--bright-blue);
+    margin: 30px 0 35px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 15px 20px hsla(245, 75%, 52%, 0.37);
+    transition: background-color 0.2s;
+}
+
+.white-section .place-order:hover{
+    background-color: hsla(245, 75%, 52%, 0.8);
+}
+
+.white-section .cancel{
+    border: none;
+    background: none;
+    color: var(--desaturated-blue);
+    font-weight: 900;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+.white-section .cancel:hover{
+    color: var(--dark-blue);
+}
