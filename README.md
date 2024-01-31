@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/frontendmentorordersummarycardsolution-lzIlV6LIEV](https://www.frontendmentor.io/solutions/frontendmentorordersummarycardsolution-lzIlV6LIEV)
 - Live Site URL: [https://onlycross12.github.io/Frontend-Mentor---Order-summary-card-solution/](https://onlycross12.github.io/Frontend-Mentor---Order-summary-card-solution/)
 
 ## My process
