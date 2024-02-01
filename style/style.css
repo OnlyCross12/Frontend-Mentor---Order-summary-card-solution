@@ -14,7 +14,7 @@
 body {
     width: 1440px;
     margin: 0px;
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: var(--pale-blue);
     background-size: 100%;
